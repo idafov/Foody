@@ -12,8 +12,8 @@ namespace Foody_UI_Testing.Tests
 {
     public class FoodyTests : BaseTest
     {
-        public static string lastCreatedFood;
-        public static string lastCreatedDescription;
+        //public static string lastCreatedFood;
+        //public static string lastCreatedDescription;
 
         [Test, Order(1)]
         public void AddFoodWithInvalidData()
